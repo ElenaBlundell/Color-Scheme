@@ -11,8 +11,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>Color Scheme</h1>
+        <p>Choose a color and generate a beautiful color palette.</p>
+    </header>
     <div class="container">
-        <header>
+        <section class="settings">
             <input type="color" id="color-picker" value="#24753a">
             <select name="color-mode" id="color-mode">
                 <option value="monochrome">Monochrome</option>
@@ -25,7 +29,7 @@
                 <option value="quad">Quad</option>
             </select>
             <button id="get-color-scheme-btn">Get color scheme</button>
-        </header>
+        </section>
         <main>
             <div id="color-scheme"></div>
         </main>
