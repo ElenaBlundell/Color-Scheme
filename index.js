@@ -15,6 +15,7 @@ function getColorSchemeHtml(){
 }
 
 function renderColorScheme() {
+    
     const hex = document.getElementById("color-picker").value.slice(1)
     const inputMode = document.getElementById("color-mode").value
     
@@ -32,9 +33,3 @@ function renderColorScheme() {
 getColorSchemeBtn.addEventListener("click", renderColorScheme)
 
 renderColorScheme()
-
-
-
-  
-
-
